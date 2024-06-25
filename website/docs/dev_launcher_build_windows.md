@@ -32,8 +32,16 @@ git clone --recurse-submodules git@github.com:ynput/ayon-launcher.git
 ```
 
 #### Prepare environment
-Create virtual environment in `./.venv` and install python runtime dependencies like PySide, Pillow..
+
+Setup up python virtual enviorment and activate it
 ```
+ python -m .venv
+
+ ./.venv/Scripts/activate
+```
+Install python runtime dependencies like PySide, Pillow..
+```
+./tools/make.sh
 ./tools/manage.ps1 create-env
 ./tools/manage.ps1 install-runtime-dependencies
 ```
