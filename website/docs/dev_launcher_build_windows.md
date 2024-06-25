@@ -55,6 +55,7 @@ Build AYON executables in `./build/output/`.
 #### Create installer
 Create installer that can be distributed to server and workstations.
 ```
+# Inno Setup has to be install for this command to word
 ./tools/manage.ps1 make-installer
 ```
 
